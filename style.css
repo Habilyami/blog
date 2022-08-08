@@ -1,0 +1,106 @@
+    *{
+        padding:0;
+        margin:0;
+        text-decoration: none;
+    }
+
+
+    body{
+        background-color:gray;
+    }
+header{
+    background-color:black;
+    min-width:100%;
+    padding:20px;
+    color:white;
+    padding:30px;
+}
+
+.newblog{
+    color:#fff
+}
+.newblog:hover{
+    color: #000  ;
+}
+.blog{
+    color:#fff
+}
+.blog:hover{
+    color: #000  ;
+}
+
+span{
+    padding:10px;
+    cursor:pointer;
+    border:2px solid black;
+}
+
+span:hover{
+    border:2px solid white;
+    background-color: white;
+    color:black;
+    border-radius:10px;
+
+}
+
+
+.container{
+    max-width:80%;
+    max-height:100vh;
+    /* background-color:grey; */
+    margin: 0 auto;
+}
+
+h1{
+    padding:20px 0px 20px 0px;
+}
+
+h2, h4{
+    padding-bottom: 30px;;
+}
+
+
+input[type=text] {
+    
+    padding:15px;
+    min-width:100%;
+}
+
+.box{
+    min-width:100%;
+    background-color:white;
+    padding:17px;
+    margin-top:20px;
+    min-height:30px;
+}
+
+.cat{
+    min-width:103%;
+    padding: 10px;
+}
+.textarea{
+    width:97%;
+    min-height:200px;
+    padding:30px;
+}
+.post{
+    padding:10px;
+
+}
+
+label{
+    margin:10px 0 10px 0
+} 
+
+.get{
+    color:#fff;
+    cursor:pointer;
+    border:2px solid black;
+    width:70px;
+    padding:10px;
+}
+.get:hover{
+    color: #fff;
+    border:2px solid white;
+    border-radius:30px;
+}
